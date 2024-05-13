@@ -7,7 +7,8 @@ const teamMembers = [
         strengths: ['GOAT', ' Incredible Arm Strength'],
         number: '84',
         skills: [ 'Long Throws', ' Friendliness with Referees'],
-        teams: ['Patriots', ' Buccaneers']
+        teams: ['Patriots', ' Buccaneers'],
+        image: 'Tom Brady',
     },
     {
         name: 'Antonio Brown',
@@ -54,6 +55,8 @@ function generateTeamCards(){
         card.style.backgroundColor = backgroundColor
          card.innerHTML= `
             <div class="card">
+                <div class="img" src="${member.image} + '.png'>
+                </div>
                 <div class = "card-header">
                     ${member.name}
                 </div>
