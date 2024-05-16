@@ -77,3 +77,5 @@ function generateTeamCards(){
 
 
 window.onload = generateTeamCards()
+
+//document.getElementById('info-pic').src = 'img/' + selected + '.jpg';
